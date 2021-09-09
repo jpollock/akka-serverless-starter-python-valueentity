@@ -10,8 +10,8 @@ from google.protobuf.empty_pb2 import Empty
 
 from akkaserverless.value_context import ValueEntityCommandContext
 from akkaserverless.value_entity import ValueEntity
-from thing_domain_pb2 import (ThingState, DESCRIPTOR as DOMAIN_DESCRIPTOR)
-from thing_api_value_entity_pb2 import (Thing, _GETTHINGCOMMAND, _THINGVALUESERVICE, DESCRIPTOR as API_DESCRIPTOR)
+from domain_pb2 import (ThingState, DESCRIPTOR as DOMAIN_DESCRIPTOR)
+from value_entity_pb2 import (Thing, _GETTHINGCOMMAND, _THINGVALUESERVICE, DESCRIPTOR as API_DESCRIPTOR)
 
 
 import statistics

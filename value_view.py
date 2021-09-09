@@ -9,6 +9,6 @@ from typing import MutableSet
 from google.protobuf.empty_pb2 import Empty
 
 from akkaserverless.view import View
-from thing_view_value_pb2 import (_THINGVIEW, DESCRIPTOR as FILE_DESCRIPTOR)
+from value_view_pb2 import (_THINGVIEW, DESCRIPTOR as FILE_DESCRIPTOR)
 
 view = View(_THINGVIEW,[FILE_DESCRIPTOR])
